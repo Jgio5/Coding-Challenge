@@ -1,0 +1,81 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+  padding-top: 50px;
+  padding-bottom: 130px;
+  border-radius: 10px;
+}
+
+/*header*/
+.logo{
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+h1{
+  color: #00dd00;
+  font-family: century gothic;
+  /*Font-family h1 e .account uguali, lascio separati per comodità di cambio*/
+  font-size: 30px;
+  text-align: center;
+  line-height: 2px;
+}
+
+/*nav*/
+.menu{
+  background-color: #00dd00;
+  text-align: center;
+  width:80%;
+  margin: auto;
+  padding: 7px;
+}
+
+/*main*/
+.account{
+  font-family: century gothic;
+  width:82%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.account-name{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.street:before{
+  content: "\21A6"
+}
+
+p{
+  font-size: 15px;
+  color: #f2ffe2;
+  line-height: 4px;
+}
+
+span[class^="charge"]{
+  border-radius: 3px;
+}
+
+.charge-1{
+  background-color: #f5b453;
+  padding-left: 35%;
+}
+
+.charge-2{
+  background-color: #1ec31e;
+  padding-left: 50%;
+}
+
+.charge-3{
+  background-color: #be4141;
+  padding-left: 15%;
+}
